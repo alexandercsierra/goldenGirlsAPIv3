@@ -46,7 +46,7 @@ Base URL:
 ## Adding an Episode
 
 |Property| Required? | Type|
-|:-----|:-----:|:-----|:-----|
+|:-----|:-----:|:-----|
 |episode_name| YES| string|
 |season_number| YES| integer| 
 
