@@ -1,10 +1,12 @@
 const express = require('express');
 const helmet = require('helmet');
+const cors = require('cors')
 const server = express();
 const quotesRouter = require('./quotes/quotesRouter')
 const episodeRouter = require('./episodes/episodeRouter')
 
 server.use(helmet());
+server.use(cors())
 server.use(express.json());
 
 server.use('/quotes', quotesRouter)
