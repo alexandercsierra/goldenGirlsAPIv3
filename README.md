@@ -2,7 +2,7 @@
 
 
 Base URL:
-<comingsoon>
+<https://goldengirlsquotes.herokuapp.com/>
 
 
 ## Quotes
